@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0e0e0f;
+  --bg-surface: #16161a;
+  --bg-elevated: #1e1e24;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(255, 255, 255, 0.16);
+  --text: #e8e6e0;
+  --text-muted: #8a887f;
+  --text-dim: #4a4845;
+  --accent: #c8a96e;
+  --accent-dim: rgba(200, 169, 110, 0.12);
+  --green: #4caf7d;
+  --yellow: #e6b84a;
+  --red: #e05c5c;
+  --green-dim: rgba(76, 175, 125, 0.15);
+  --yellow-dim: rgba(230, 184, 74, 0.15);
+  --red-dim: rgba(224, 92, 92, 0.15);
+  --radius: 10px;
+  --radius-lg: 16px;
+  --mono: 'JetBrains Mono', monospace;
+  --serif: 'Lora', serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  min-height: 100vh;
+  line-height: 1.6;
+}
